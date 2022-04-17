@@ -1,0 +1,4 @@
+outs:
+- md5: 969bdc00a25026ef838f30f26b6b3120
+  size: 1756
+  path: wine_dt_cf.onnx

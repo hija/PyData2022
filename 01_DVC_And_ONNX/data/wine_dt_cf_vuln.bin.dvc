@@ -1,0 +1,4 @@
+outs:
+- md5: 6ebee58c22b83c575a8f84479910a761
+  size: 1740
+  path: wine_dt_cf_vuln.bin
