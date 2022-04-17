@@ -3,7 +3,7 @@ I went virtually to the **PyCon DE &amp; PyData Berlin 2022**. In this repo I wa
 
 Table of Contents
 
-| **Directory** | **Topic**                 |
-| ------------- | ------------------------- |
-| [1](00_Dask/) | Dask (Scalable Analytics) |
-|               |                           |
+| **Directory**       | **Topic**                 |
+| ------------------- | ------------------------- |
+| [00_Dask](00_Dask/) | Dask (Scalable Analytics) |
+|                     |                           |
