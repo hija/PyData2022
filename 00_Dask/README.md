@@ -1,6 +1,6 @@
 # Dask
 
-![](https://docs.dask.org/en/latest/_images/dask_horizontal.svg)
+![https://dask.org/](https://docs.dask.org/en/latest/_images/dask_horizontal.svg)
 
 Dask is an **open source** (BSD 3 licensed) library for parallel computing written in Python. Dask is especially interesting for me, since it has almost the same interfaces as pandas DataFrames and can be used with scikit-learn (the library I use most often for machine learning).
 
