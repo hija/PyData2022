@@ -6,5 +6,5 @@ Table of Contents
 | **Directory**             | **Topic**                                       |
 | ------------------------- | ----------------------------------------------- |
 | [00_Dask](00_Dask/)       | Dask (Scalable Analytics)                       |
-| [01_DVC](01/DVC_And_ONNX) | Data Version Control (DVC) for Machine Learning |
-| [01_ONNX](01/DVC_And_ONNX) | Open Neural Network Exchange                    |
+| [01_DVC](01_DVC_And_ONNX) | Data Version Control (DVC) for Machine Learning |
+| [01_ONNX](01_DVC_And_ONNX) | Open Neural Network Exchange                    |
