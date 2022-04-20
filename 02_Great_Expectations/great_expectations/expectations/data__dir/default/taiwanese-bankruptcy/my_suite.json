@@ -1,0 +1,602 @@
+{
+  "data_asset_name": "data__dir/default/taiwanese-bankruptcy",
+  "expectation_suite_name": "my_suite",
+  "meta": {
+    "great_expectations.__version__": "0.7.3"
+  },
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Bankrupt?"
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "Bankrupt?",
+        "value_set": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "Bankrupt?",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " ROA(C) before interest and depreciation before interest",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " ROA(A) before interest and % after tax",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " ROA(B) before interest and depreciation after tax",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Operating Gross Margin",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Realized Sales Gross Margin",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Operating Profit Rate",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Pre-tax net Interest Rate",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " After-tax net Interest Rate",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Non-industry income and expenditure/revenue",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Continuous interest rate (after tax)",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Cash flow rate",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Tax rate (A)",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Net Value Per Share (B)",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Net Value Per Share (A)",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Net Value Per Share (C)",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Persistent EPS in the Last Four Seasons",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Cash Flow Per Share",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Operating Profit Per Share (Yuan \u00a5)",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Per Share Net profit before tax (Yuan \u00a5)",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Realized Sales Gross Profit Growth Rate",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Operating Profit Growth Rate",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " After-tax Net Profit Growth Rate",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Regular Net Profit Growth Rate",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Continuous Net Profit Growth Rate",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Total Asset Return Growth Rate Ratio",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Cash Reinvestment %",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Interest Expense Ratio",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Debt ratio %",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Net worth/Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Long-term fund suitability ratio (A)",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Borrowing dependency",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Contingent liabilities/Net worth",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Operating profit/Paid-in capital",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Net profit before tax/Paid-in capital",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Inventory and accounts receivable/Net value",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Total Asset Turnover",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Net Worth Turnover Rate (times)",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Operating profit per person",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Working Capital to Total Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Quick Assets/Total Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Current Assets/Total Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Cash/Total Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Current Liability to Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Operating Funds to Liability",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Inventory/Working Capital",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Current Liabilities/Liability",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Working Capital/Equity",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Current Liabilities/Equity",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Retained Earnings to Total Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Total income/Total expense",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Total expense/Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Working capitcal Turnover Rate",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Cash Flow to Sales",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Current Liability to Liability",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Current Liability to Equity",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Equity to Long-term Liability",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Cash Flow to Total Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Cash Flow to Liability",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " CFO to Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Cash Flow to Equity",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Current Liability to Current Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Liability-Assets Flag",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Net Income to Total Assets",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " No-credit Interval",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Gross Profit to Sales",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Net Income to Stockholder's Equity",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Liability to Equity",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Degree of Financial Leverage (DFL)",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Interest Coverage Ratio (Interest expense to EBIT)",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Net Income Flag",
+        "min_value": 0,
+        "max_value": 1
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": " Equity to Liability",
+        "min_value": 0,
+        "max_value": 1
+      }
+    }
+  ],
+  "data_asset_type": "Dataset"
+}
